@@ -11,10 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+- [Release Notes](/Docs/release-notes.md) - Add support for P2P LoRa communication.
+
 ### Fixed
 
 ## [1.0.0] - 2023-10-05
 
 ### Added
 
-- [Release Notes](/Docs/release-notes-1.0.0.md) - Fork of the original HT Micron LoRAWAN+BLE SDK repository available [here](https://github.com/htmicron/htlrbl32l).
+- [Release Notes](/Docs/release-notes.md) - Fork of the original HT Micron LoRAWAN+BLE SDK repository available [here](https://github.com/htmicron/htlrbl32l).
