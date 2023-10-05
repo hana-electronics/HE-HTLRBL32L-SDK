@@ -11,9 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- [Release Notes](/Docs/release-notes.md) - Add support for P2P LoRa communication.
-
 ### Fixed
+
+## [1.1.0] - 2023-10-05
+
+### Changed
+
+- [Release Notes](/Docs/release-notes.md) - Add support for P2P LoRa communication.
 
 ## [1.0.0] - 2023-10-05
 
