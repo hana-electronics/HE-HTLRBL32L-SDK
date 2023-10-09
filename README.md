@@ -1,7 +1,11 @@
 # HTLRBL32L-SDK
 This GitHub repository hosts an SDK for the Hana Electronics Evaluation Board (HTLRBL32L based), providing developers with essential tools and resources for firmware development.
 
-# Setting up the SDK 
+## Release Notes
+
+To check the release notes, please read the [README](https://github.com/Hana-Electronics/HE-HTLRBL32L-SDK/blob/v1.1.0/Docs/release-notes.md)
+
+## Setting up the SDK 
 In WiSE Studio, right-click on the project, go to 'Properties'
 
 <div align="center">
