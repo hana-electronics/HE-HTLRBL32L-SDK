@@ -1,11 +1,6 @@
 # HTLRBL32L-SDK
 This GitHub repository hosts an SDK for the Hana Electronics [Evaluation Board](https://github.com/Hana-Electronics/EVB-LoRaWAN-HTLRBL32L) (HTLRBL32L based), providing developers with essential tools and resources for firmware development.
 
-## Cloning the SDK 
-```
-git clone --single-branch --branch master https://github.com/Hana-Electronics/HE-HTLRBL32L-SDK.git
-```
-
 ## Setting up the SDK 
 In WiSE Studio, right-click on the project, go to 'Properties'
 
