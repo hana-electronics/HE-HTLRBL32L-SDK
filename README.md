@@ -3,7 +3,12 @@ This GitHub repository hosts an SDK for the Hana Electronics [Evaluation Board](
 
 ## Release Notes
 
-To check the release notes, please read the [README](https://github.com/Hana-Electronics/HE-HTLRBL32L-SDK/blob/v1.1.0/Docs/release-notes.md "iFrame")
+To check the release notes, please read the [README](https://github.com/Hana-Electronics/HE-HTLRBL32L-SDK/blob/v1.1.0/Docs/release-notes.md)
+
+## Cloning the SDK 
+```
+git clone --single-branch --branch master https://github.com/Hana-Electronics/HE-HTLRBL32L-SDK.git
+```
 
 ## Setting up the SDK 
 In WiSE Studio, right-click on the project, go to 'Properties'
