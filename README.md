@@ -19,7 +19,7 @@ Click on C/C++ Build, then Environment, select the HE-HTLRBL32L-SDK variable and
 <br><br>
 Where it says 'CHANGE ME' paste the directory path of the SDK files.
 <div align="center">
-  <img src='/Docs/assets/path.png' />
+  <img src='/Docs/assets/path.png' id="topology" height="70%" width="70%"/>
 </div
 <br><br> 
 Apply the changes and close the window.
