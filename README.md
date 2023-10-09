@@ -7,19 +7,21 @@ In WiSE Studio, right-click on the project, go to 'Properties'
 <div align="center">
   <img src='/Docs/assets/properties.png' id="topology" height="30%" width="30%"/>
 </div
-  
-Click on C/C++ Build, then Environment, select the 'HE-HTLRBL32L-SDK' variable and click on 'Edit'
+<br><br>
+Click on C/C++ Build, then Environment, select the 'HE-HTLRBL32L-SDK' variable and click on 'Edit'. If the variable is not available, you can create it clicking on 'Add' button.
 <div align="center">
   <img src='/Docs/assets/environment.png' id="topology" height="70%" width="70%"/>
 </div
-  
+<br><br>
 Where it says 'CHANGE ME' paste the directory path of the SDK files.
 <div align="center">
   <img src='/Docs/assets/path.png' />
 </div
-  
+<br><br> 
 Apply the changes and close the window.
 
 <div align="center">
   <img src='/Docs/assets/edit%20variable.png'id="topology" height="70%" width="70%"/>
 </div
+<br><br>
+Have fun with your project :)
