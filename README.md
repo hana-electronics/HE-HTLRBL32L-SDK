@@ -8,7 +8,7 @@ In WiSE Studio, right-click on the project, go to 'Properties'
   <img src='/Docs/assets/properties.png' id="topology" height="35%" width="35%"/>
 </div
 <br><br>
-Click on C/C++ Build, then Environment, select the HE-HTLRBL32L-SDK variable and click on 'Edit'. If the variable is not available, you can create it clicking on 'Add' button.
+Click on C/C++ Build, then Environment, select the 'HE-HTLRBL32L-SDK variable' and click on 'Edit'. If the variable is not available, you can create it clicking on 'Add' button.
 <div align="center">
   <img src='/Docs/assets/environment.png' id="topology" height="70%" width="70%"/>
 </div
