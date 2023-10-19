@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- IRQ_RadioRX flag disable some print commands on the SDK. 
+
 ## [1.1.0] - 2023-10-05
 
 - ADVSPT-27
