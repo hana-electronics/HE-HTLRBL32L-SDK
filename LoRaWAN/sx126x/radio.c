@@ -680,7 +680,7 @@ void RadioStandby( void )
 
 void RadioRx( uint32_t timeout )
 {
-   #ifndef IRQ_RadioRX
+   #ifndef LoRa
 	printf("LoRaWAN RX open for %lu ms \n",timeout);
     #endif
     SX126xSetDioIrqParams( IRQ_RADIO_ALL, //IRQ_RX_DONE | IRQ_RX_TX_TIMEOUT,
@@ -692,7 +692,7 @@ void RadioRx( uint32_t timeout )
     {
 //	using only radio IRQ to control rx timeout
 
-#ifdef IRQ_RadioRX
+#ifdef LoRa
 		TimerSetValue( &RxTimeoutTimer, timeout);
 		TimerStart( &RxTimeoutTimer );
 #endif
@@ -855,7 +855,7 @@ void RadioOnTxTimeoutIrq( void* context )
 
 void RadioOnRxTimeoutIrq( void* context )
 {   
-    #ifndef IRQ_RadioRX
+    #ifndef LoRa
 		printf("Software - ");
     #endif
     if( ( RadioEvents != NULL ) && ( RadioEvents->RxTimeout != NULL ) )
