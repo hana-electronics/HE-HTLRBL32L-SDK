@@ -25,7 +25,9 @@
 #ifdef  USE_FULL_ASSERT
   #include "rf_driver_assert.h"
 #else
-  #define assert_param(expr) ((void)0UL)
+	#ifndef assert_param
+  	  #define assert_param(expr) ((void)0UL)
+	#endif
 #endif
 
 #define RSSI_OFFSET 119

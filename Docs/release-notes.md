@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+- IRQ_RadioRX renamed to LoRa
+- LoRa flag disable some print commands on the SDK. 
+
 ## [1.1.0] - 2023-10-05
 
 - ADVSPT-27
