@@ -1,7 +1,7 @@
 ## [Unreleased]
 
-- IRQ_RadioRX renamed to LoRa
-- LoRa flag disable some print commands on the SDK. 
+- IRQ_RadioRX renamed to USE_LORA
+- USE_LORA flag disable some print commands on the SDK. 
 
 ## [1.1.0] - 2023-10-05
 

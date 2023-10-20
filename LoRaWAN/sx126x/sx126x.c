@@ -161,7 +161,7 @@ uint8_t SX126xGetPayload( uint8_t *buffer, uint8_t *size,  uint8_t maxSize )
 
 void SX126xSendPayload( uint8_t *payload, uint8_t size, uint32_t timeout )
 {
-    #ifndef LoRa
+    #ifndef USE_LORA
 	printf("payload: ");
 	for(int x=0;x<size;x++){
 		printf("%02x",payload[x]);
