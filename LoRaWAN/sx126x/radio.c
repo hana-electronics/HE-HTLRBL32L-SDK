@@ -692,7 +692,7 @@ void RadioRx( uint32_t timeout )
     {
 //	using only radio IRQ to control rx timeout
 
-#ifdef LoRa
+#ifdef USE_LORA
 		TimerSetValue( &RxTimeoutTimer, timeout);
 		TimerStart( &RxTimeoutTimer );
 #endif
